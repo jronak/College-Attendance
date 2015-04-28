@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="Subjects"
+            android:gravity="center"
+            android:padding="2dp"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="Cond"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="Attd"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:padding="2dp"
+            android:gravity="center"
+            android:text="%"/>
+        </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="5dp"
+        android:divider="#ffeeeeee"
+        android:id="@+id/list_attendance">
+
+        </ListView>
+</LinearLayout>
